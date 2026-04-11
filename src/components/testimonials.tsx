@@ -1,10 +1,10 @@
 import { motion } from "motion/react";
-import { 
-  Carousel, 
-  CarouselContent, 
-  CarouselItem, 
-  CarouselNext, 
-  CarouselPrevious 
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
 } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
 import { Quote, Star } from "lucide-react";
@@ -19,23 +19,18 @@ Thank you Amanda,
 Highly recommend TimeBack!`,
       author: "Robyn Hill",
     },
-  ];
-}
     {
       quote: `Amanda is a very helpful and precise book keeper who has worked with me for over a year after being recommended to me by another property investor. She is great as she explains everything to me in simple language and is quick to respond to any queries. Our system is Xero and she also produces monthly reports which are invaluable to my business. She’s also recently taken on payroll and I highly recommend her.`,
-author: "Rowena Hicks",
-      
+      author: "Rowena Hicks",
     },
     {
-      quote: "We joined the client list of Time Back Accounts & Payroll Ltd earlier this year. Our experience with them has been nothing less than amazing. We have had the fullest support possible and this includes a seamless transfer from one online accounting system to another. Time Back came highly recommended to us and we have no hesitation at all in recommending to others.",
+      quote: `We joined the client list of Time Back Accounts & Payroll Ltd earlier this year. Our experience with them has been nothing less than amazing. We have had the fullest support possible and this includes a seamless transfer from one online accounting system to another. Time Back came highly recommended to us and we have no hesitation at all in recommending to others.`,
       author: "Jim Riley",
-      
     },
     {
-      quote: "I was recommended Amanda by a friend when I needed an accountant rather last minute to help me submit my tax return for my small business. I am clueless when it comes to this stuff and she was absolutely amazing in helping untangle the chaos of my brain and business, patiently working through all the information I'd sent to her to get it all submitted before the due date. Fabulous",
+      quote: `I was recommended Amanda by a friend when I needed an accountant rather last minute to help me submit my tax return for my small business. I am clueless when it comes to this stuff and she was absolutely amazing in helping untangle the chaos of my brain and business, patiently working through all the information I'd sent to her to get it all submitted before the due date. Fabulous.`,
       author: "Beccy Luton",
-
-    }
+    },
   ];
 
   return (
@@ -43,7 +38,7 @@ author: "Rowena Hicks",
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
           <div className="max-w-2xl">
-            <motion.h2 
+            <motion.h2
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -51,7 +46,7 @@ author: "Rowena Hicks",
             >
               Trusted by Businesses Like Yours
             </motion.h2>
-            <motion.p 
+            <motion.p
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -92,11 +87,10 @@ author: "Rowena Hicks",
                       <CardContent className="p-8 flex flex-col h-full">
                         <Quote className="h-10 w-10 text-primary/20 mb-6" />
                         <p className="text-slate-700 text-lg italic leading-relaxed mb-8 flex-grow">
-                          "{t.quote}"
+                          “{t.quote}”
                         </p>
                         <div className="flex flex-col">
                           <span className="font-bold text-slate-900">{t.author}</span>
-                          <span className="text-sm text-slate-500">{t.location}</span>
                         </div>
                       </CardContent>
                     </Card>
