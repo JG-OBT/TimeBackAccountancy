@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import About from "@/components/About";
-import Services from "@/components/Services";
-import Trust from "@/components/Trust";
-import Testimonials from "@/components/Testimonials";
-import Contact from "@/components/Contact";
+import Navbar from "@/components/navbar";
+import Hero from "@/components/hero";
+import About from "@/components/about";
+import Services from "@/components/services";
+import Trust from "@/components/trust";
+import Testimonials from "@/components/testimonials";
+import Contact from "@/components/contact";
 import Footer from "@/components/footer";
 
 export default function App() {
