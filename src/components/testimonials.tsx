@@ -12,12 +12,15 @@ import { Quote, Star } from "lucide-react";
 export default function Testimonials() {
   const testimonials = [
     {
-      quote: "I’m really grateful for Amanda’s expertise, help and guidance with my tax. I was in a crisis, and Amanda was patient, kind and understanding as well as professional and thorough. The turnaround was very quick, I felt supported and my case was handled efficiently and expertly.
+      quote: `I’m really grateful for Amanda’s expertise, help and guidance with my tax. I was in a crisis, and Amanda was patient, kind and understanding as well as professional and thorough. The turnaround was very quick, I felt supported and my case was handled efficiently and expertly.
+
 Thank you Amanda,
-Highly recommend TimeBack!",
+
+Highly recommend TimeBack!`,
       author: "Robyn Hill",
-      
     },
+  ];
+}
     {
       quote: "Amanda is a very helpful and precise book keeper who has worked with me for over a year after being recommended to me but another property investor. She is great as she explains everything to me in simple language and is quick to respond to any queries. Our system is Xero and she also produces monthly reports which are invaluable to my business. She’s also recently taken on payrol and I highly recommend her.",
       author: "Rowena Hicks",
