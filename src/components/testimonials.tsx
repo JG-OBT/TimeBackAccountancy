@@ -12,24 +12,26 @@ import { Quote, Star } from "lucide-react";
 export default function Testimonials() {
   const testimonials = [
     {
-      quote: "Time Back has been instrumental in our growth. Their attention to detail and efficiency in handling our bookkeeping and VAT returns has saved us countless hours.",
-      author: "Local Business Owner",
-      location: "Yeovil",
+      quote: "I’m really grateful for Amanda’s expertise, help and guidance with my tax. I was in a crisis, and Amanda was patient, kind and understanding as well as professional and thorough. The turnaround was very quick, I felt supported and my case was handled efficiently and expertly.
+Thank you Amanda,
+Highly recommend TimeBack!",
+      author: "Robyn Hill",
+      
     },
     {
-      quote: "Professional, punctual, and highly cost-effective. Amanda and her team are incredibly reliable and have a deep understanding of Sage and Xero.",
-      author: "Managing Director",
-      location: "Sherborne",
+      quote: "Amanda is a very helpful and precise book keeper who has worked with me for over a year after being recommended to me but another property investor. She is great as she explains everything to me in simple language and is quick to respond to any queries. Our system is Xero and she also produces monthly reports which are invaluable to my business. She’s also recently taken on payrol and I highly recommend her.",
+      author: "Rowena Hicks",
+      
     },
     {
-      quote: "I can't recommend Time Back enough. They are accurate, efficient, and always go the extra mile to ensure our year-end accounts are perfect.",
-      author: "Small Business Client",
-      location: "South West",
+      quote: "We joined the client list of Time Back Accounts & Payroll Ltd earlier this year. Our experience with them has been nothing less than amazing. We have had the fullest support possible and this includes a seamless transfer from one online accounting system to another. Time Back came highly recommended to us and we have no hesitation at all in recommending to others.",
+      author: "Jim Riley",
+      
     },
     {
-      quote: "A truly confidential and trustworthy service. Having worked with them for several years, I wouldn't trust anyone else with our payroll and accounts admin.",
-      author: "Retailer",
-      location: "Somerset",
+      quote: "I was recommended Amanda by a friend when I needed an accountant rather last minute to help me submit my tax return for my small business. I am clueless when it comes to this stuff and she was absolutely amazing in helping untangle the chaos of my brain and business, patiently working through all the information I'd sent to her to get it all submitted before the due date. Fabulous",
+      author: "Beccy Luton",
+
     }
   ];
 
