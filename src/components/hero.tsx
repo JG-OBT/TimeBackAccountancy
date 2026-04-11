@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { motion } from "motion/react";
 import { CheckCircle2, Clock, Award, ShieldCheck } from "lucide-react";
-import heroImage from "@/assets/images/hero.jpg";
+import heroImage from "../assets/images/hero.jpg";
 
 export default function Hero() {
   return (
